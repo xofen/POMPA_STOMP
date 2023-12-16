@@ -11,9 +11,13 @@ config_version=5
 [application]
 
 config/name="waiting_godot"
-run/main_scene="res://main.tscn"
+run/main_scene="res://scenes/main_menu.tscn"
 config/features=PackedStringArray("4.2", "Mobile")
 config/icon="res://icon.svg"
+
+[display]
+
+window/stretch/mode="canvas_items"
 
 [input]
 
@@ -36,3 +40,4 @@ jump={
 [rendering]
 
 renderer/rendering_method="mobile"
+environment/defaults/default_clear_color=Color(0.560784, 0, 0, 1)
